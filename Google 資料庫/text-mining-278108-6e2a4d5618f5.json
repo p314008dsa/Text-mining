@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "text-mining-278108",
+  "private_key_id": "6e2a4d5618f591fa12100828e7994aa612291a40",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC74sAP1dd89zBI\nXA8/P+61s9e158msbKw/51gLSQ5CrE8L5XYZppQky3FhbEHrHmDcmgvbYROnzsIX\nGU8XkjpGWd97atU/wN1TmRhoJ87Qvke7v7E0Esm19LaIfhIEka0ioOEaNb+auRRN\nwP9Q3TAip9eINaPuZEXTWdbAo+LMkoTWD2bP7ja1R6QuNFW5Qx5b7oyZjo6lkRc+\nDxgw8t9o6h6NqNwUkcEOWs9X6wTSC6t60Mjf/Um3d2v+DTMoyEcby4ztbGkE5iyC\n2h0zIJGwVyHT4+GBtRa5lMyeXREkmTZByEW1Y0/iUIugufaCs9PnajQ2lDUkKFPO\n5Z+vn7HHAgMBAAECggEAGWh3TgI+ez53tRFeA9EC2GeoYDJ8P2kNfNwtjTklSIxC\nFFBvltXEFZsS4M3htt4LffRcbh/D/LQlOI0fo7G5V7zc+rUJKZn3VFAme3oGqeFR\nlL4+RICAmVlX5erGnP+Q86yLRHQdo9rWOBLwHrYKxbpU7K1JrKS6x0jQQIo+fX4y\nCoo9x1VjMmCXmlnLCUCdyviyllrvaAGSWqsYv53N46Too1hiHwG6uhNMylvDU0g5\nG5QblhXc+2zw/LJXuCIHtN5bFP5ysTOMBrGsvp75dycqnl67jnB3yewzaPdTlGK5\nG+J3+Xsm39CmheDII+A/YdzO5cC+FUhs/lwCsCpCIQKBgQDxNTL5MgVpxnhF94x8\nXXnZUpdLf813/4+dyOl6Vz3loDQV63jsp0wJjxQLvGAUHnKqKyi3cHKr0vteYviA\nrLu8FBvsMEm3D5wA6IBY+Lz3W+sN08COOADlB65uYaIMNJu/0VQHy0IAK5wl7xoO\n55u7ii1nLED6ZGs+582JL+IuJQKBgQDHaG4xab9dInZ/mMlatv8ZzC+xveTRFb54\nN95OZT6746qz25TgJ5EnRPJgAIJrKfaLHlzMUUQzye6A8fynFw3lTJq3Z1JOmmjy\nHUlMhOvI1M7uDwrQRO1wIirYaD+4sFZsqJSiyH6UworGBTghFnEo+sqML7tzuqjL\n1sYZxH+OewKBgQCkIZIc9YevcUjYO1mSKr1GPygKTN3QoMrmEBenkwPgY8HthHyV\ndEWOX5jBX551Mj7OQm4DXPX6q6c2k9wLGv7oPTq+3iDa+zkpeQwU/rT/EMICd6uY\nWs1pC3ALVk5BRe8ReGxYnVu85+/p9ChkKf/TfnPkt71DZN+BP5ShnD6pLQKBgCVo\n4xtkEmGfoImJmWTqZetqEhyPWokbQjN9j7g3aFCJgrHhZQm0gpfSaII4Nj9yjO1G\nkfRG3ru0i4knXNXgDlxRRclYmeljMIMTmXfAjBeOTQ/+RHIULFNYJZ+Z1zKH6n7S\nFaiAYrb31F8YBZK3ih09B5jLL6ijgR1Uuq+E3MVXAoGBAOVq1oEByvfeyAAzFN/N\n5RfyNyvCzZkzN7gf0lfe9AY5+s2LTOS3hvSmcohujuBVWaqWwDnxzhd9y7KJY/AO\nt1frUizRPCFHFv63Q31Pc3rdYyZLHGk50DeuD4r5Oy/FjmuQLUyuvjRLsuLTyZsY\npk1II4Yku9vKl+isYM+U3Yoq\n-----END PRIVATE KEY-----\n",
+  "client_email": "text-mining@text-mining-278108.iam.gserviceaccount.com",
+  "client_id": "117362863287968134244",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/text-mining%40text-mining-278108.iam.gserviceaccount.com"
+}
