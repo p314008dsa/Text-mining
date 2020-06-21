@@ -23,12 +23,10 @@ BE_enc = load('gdrive/My Drive/金融科技Final_project/BE_enc.joblib')
 
 SE_enc = load('gdrive/My Drive/金融科技Final_project/SE_enc.joblib')
 
-# Here is our preprocess_text function
+# load tokenizer
 
-# Here we have to use our original text to fit our tokenizer
-data_df = pd.read_excel('gdrive/My Drive/金融科技Final_project/2019+2020年新聞資訊事件_股價報酬_528.xlsx')
-tokenizer = keras .preprocessing.text.Tokenizer(num_words=10000)
-tokenizer.fit_on_texts(data_df.content_tokenized)
+my_tokenizer = load('gdrive/My Drive/金融科技Final_project/my_tokenizer.joblib')
+
 
 def preprocess_text(Tokenizer,corpus, MAX_SEQUENCE_LENGTH = 1000):
   '''
@@ -39,7 +37,7 @@ def preprocess_text(Tokenizer,corpus, MAX_SEQUENCE_LENGTH = 1000):
   output = keras .preprocessing .sequence .pad_sequences(output, maxlen=MAX_SEQUENCE_LENGTH)
   return output
 
-  # Ex: x = preprocess_text(Tokenizer = tokenizer,corpus = data_df.content_tokenized, MAX_SEQUENCE_LENGTH = 1305)
+  # Ex: x = preprocess_text(Tokenizer = my_tokenizer,corpus = data_df.content_tokenized, MAX_SEQUENCE_LENGTH = 1305)
 
 def predict_intensity(x):
   pred_Intensity = Intensity_Classifier.predict(x)
