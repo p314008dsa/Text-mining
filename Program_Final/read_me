@@ -1,0 +1,10 @@
+本產品使用方法
+
+1. 更改 models_function 中各預測模型的路徑名稱，共有8個要更改，檔案在 models_function_box 中
+2. 更改 Main_Program 中 my_tokenizer 的路徑名稱
+3. 注意是否已下載所需套件
+4. 需下載切詞庫，請至此連結下載，下載完畢後解壓縮到 Program_Final 中
+   連結：https://drive.google.com/file/d/1bTDUQOQi0BVIx96x7GfnLaK45uAuoC5I/view?usp=sharing
+5. models_function.py 與 cutword.py 會在 Main_Program 中 import
+
+預設是每 120 秒會自動執行一輪爬蟲與後續的模型預測、資料儲存與網頁輸出等程序
