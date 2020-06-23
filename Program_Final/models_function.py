@@ -9,23 +9,23 @@ from sklearn.preprocessing import OneHotEncoder
 
 # load models
 from keras.models import load_model
-Intensity_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/Intensity_Classifier')
-Small_Event_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/Small_Event_Classifier')
-Big_Event_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/Big_Event_Classifier')
-Month_abnormal_returns_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/Month_abnormal_returns_Classifier')
+Intensity_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/Intensity_Classifier')
+Small_Event_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/Small_Event_Classifier')
+Big_Event_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/Big_Event_Classifier')
+Month_abnormal_returns_Classifier = load_model('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/Month_abnormal_returns_Classifier')
 
 # load encoders
 from joblib import dump, load
 
-Intensity_enc = load('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/Intensity_enc.joblib')
+Intensity_enc = load('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/Intensity_enc.joblib')
 
-BE_enc = load('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/BE_enc.joblib')
+BE_enc = load('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/BE_enc.joblib')
 
-SE_enc = load('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/SE_enc.joblib')
+SE_enc = load('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/SE_enc.joblib')
 
 # load tokenizer
 
-my_tokenizer = load('/Users/wangyuda/Desktop/文字探勘/Text-mining/Fintech_Files_0616/my_tokenizer.joblib')
+my_tokenizer = load('/Users/wangyuda/Desktop/文字探勘/Program_Final_test/models_function_box/my_tokenizer.joblib')
 
 
 def preprocess_text(Tokenizer,corpus, MAX_SEQUENCE_LENGTH = 1000):

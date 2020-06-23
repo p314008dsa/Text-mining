@@ -6,6 +6,5 @@
 4. 需下載切詞庫，請至此連結下載，下載完畢後解壓縮到 Program_Final 中
    連結：https://drive.google.com/file/d/1bTDUQOQi0BVIx96x7GfnLaK45uAuoC5I/view?usp=sharing
 5. models_function.py 與 cutword.py 會在 Main_Program 中 import
-6. MySQL 資料庫連接資訊需自行更改
 
 預設是每 120 秒會自動執行一輪爬蟲與後續的模型預測、資料儲存與網頁輸出等程序
